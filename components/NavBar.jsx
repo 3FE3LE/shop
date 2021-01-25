@@ -4,11 +4,11 @@ export const NavBar = () => {
   return (
     <>
       <nav className="flex items-center justify-between shadow p-2">
-        <div className="flex -mt-1">
+        <div className="flex md:w-full max-w-xs -mt-1">
           <h1 className="text-5xl font-black ">ByFL</h1>
-          <h2 className="text-xl">byfranklicona</h2>
+          <h2 className="text-xl hidden md:inline">byfranklicona</h2>
         </div>
-        <div className="relative w-full max-w-md">
+        <div className="relative w-full ">
           <input
             type="text"
             className="ring-2 ring-gray-300 h-10 w-full  bg-gray-100 pr-12 p-2"
@@ -29,9 +29,9 @@ export const NavBar = () => {
             />
           </svg>
         </div>
-        <div className="flex">
+        <div className="flex md:w-full max-w-xs justify-end">
           <svg
-            className="h-10"
+            className="h-8 px-3"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -45,7 +45,7 @@ export const NavBar = () => {
             />
           </svg>
           <svg
-            className="h-10"
+            className="h-8 px-3"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ export const NavBar = () => {
             />
           </svg>
           <svg
-            className="h-10"
+            className="h-8 px-3"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
